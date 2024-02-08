@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c1c5482.css",
+    "main.js": "/static/js/main.5d71b23a.js",
+    "static/media/Website_bg.jpg": "/static/media/Website_bg.ee99d03138cf481eac19.jpg",
+    "static/media/Diwali.jpg": "/static/media/Diwali.f1763bea4b1b19da30c3.jpg",
+    "static/media/Portfolio.png": "/static/media/Portfolio.ac7bb6540862e88ec80a.png",
+    "static/media/skills3.jpg": "/static/media/skills3.5ecdc32325cd3b17ca21.jpg",
+    "static/media/flight.png": "/static/media/flight.10f8968aedce22a92a96.png",
+    "static/media/image.png": "/static/media/image.4a0e9d27a6061816ae88.png",
+    "static/media/Emotionimage.jpg": "/static/media/Emotionimage.911f3c1e847d67f354f0.jpg",
+    "static/media/AboutBg.jpg": "/static/media/AboutBg.aa8d8f4a2986318899b2.jpg",
+    "static/media/science.png": "/static/media/science.3030d5b17e5e7dddce97.png",
+    "static/media/mysql.png": "/static/media/mysql.497f0352daee384d84b7.png",
+    "static/media/audio.jpg": "/static/media/audio.2cc5c351bfe7bdac4d1b.jpg",
+    "static/media/python.png": "/static/media/python.d5a761922f495a2ec1d9.png",
+    "static/media/java.png": "/static/media/java.d0478d165b57054d71de.png",
+    "static/media/c-.png": "/static/media/c-.420e157c94c3f5b828ac.png",
+    "index.html": "/index.html",
+    "main.0c1c5482.css.map": "/static/css/main.0c1c5482.css.map",
+    "main.5d71b23a.js.map": "/static/js/main.5d71b23a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c1c5482.css",
+    "static/js/main.5d71b23a.js"
+  ]
+}
