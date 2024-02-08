@@ -1,7 +1,6 @@
 import "./Background.css";
 import React, { useState } from "react";
 import bg from "../Assets/Website_bg.jpg";
-import bgimage from "../Assets/images.jpeg";
 import { Link } from "react-router-dom";
 import { FaArrowCircleUp } from "react-icons/fa";
 

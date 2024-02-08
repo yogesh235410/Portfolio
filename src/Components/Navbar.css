@@ -225,7 +225,7 @@
   }
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 395px){
   .header a h1 {
     padding: 5px;
     font-size: 28px;
@@ -234,5 +234,8 @@
   .nav-menu.active{
     transform: none;
   }
+  /* .menu-toggle {
+    padding: 30px;
+  } */
 }
 

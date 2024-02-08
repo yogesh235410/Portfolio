@@ -1,6 +1,6 @@
 import './Skills.css';
 import './Background.css';
-import skills from '../Assets/skills3.jpg';
+import skills from '../Assets/skills3.png';
 import science from '../Assets/science.png';
 import git from '../Assets/git.png';
 import github from '../Assets/github2.png';
