@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.bb39f378.css",
-    "main.js": "/static/js/main.ba4c8438.js",
-    "static/media/Website_bg.jpg": "/static/media/Website_bg.542896b93feb2f468de8.jpg",
+    "main.js": "/static/js/main.a80631bc.js",
     "static/media/Portfolio.png": "/static/media/Portfolio.b6adcdf90d826547cba6.png",
     "static/media/Diwali.jpg": "/static/media/Diwali.6127e8b7229e5f499813.jpg",
+    "static/media/Website_bg.jpg": "/static/media/Website_bg.28239ae9df7c85ac7f0b.jpg",
     "static/media/skills3.png": "/static/media/skills3.fafd70f9c87b6d53be68.png",
     "static/media/flight.png": "/static/media/flight.10f8968aedce22a92a96.png",
     "static/media/image.png": "/static/media/image.4a0e9d27a6061816ae88.png",
@@ -18,10 +18,10 @@
     "static/media/c-.png": "/static/media/c-.420e157c94c3f5b828ac.png",
     "index.html": "/index.html",
     "main.bb39f378.css.map": "/static/css/main.bb39f378.css.map",
-    "main.ba4c8438.js.map": "/static/js/main.ba4c8438.js.map"
+    "main.a80631bc.js.map": "/static/js/main.a80631bc.js.map"
   },
   "entrypoints": [
     "static/css/main.bb39f378.css",
-    "static/js/main.ba4c8438.js"
+    "static/js/main.a80631bc.js"
   ]
 }
