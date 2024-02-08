@@ -20,7 +20,7 @@ const Portfolio = () => {
             
 "Welcome to my portfolio! Discover a harmonious blend of creativity, skill, and a solid academic background. Certified expertise validates my commitment to excellence in each project. From concept to execution, explore a showcase of ingenuity and inspiration, incorporating cutting-edge technologies like React.js, HTML, and CSS."
             <Link
-              to="https://github.com/yogesh235410/"
+              to="https://github.com/yogesh235410/Portfolio.git"
               target="_blank"
               rel="noopener noreferrer"
             >
