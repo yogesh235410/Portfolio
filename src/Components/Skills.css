@@ -1,0 +1,265 @@
+.mainskillsframe{
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.skillsimg{
+    height:100% ;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.7;
+    filter: blur(10px);
+    background-position: center;
+}
+.main-skillsicon{
+    background-color: black;
+    top: 40%;
+    left: 50%;
+    width: 1050px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 50px;
+    height: 550px;
+    opacity: 0.7;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-shadow: 20px 20px 15px rgb(94, 165, 178);
+
+
+}
+
+.main-skillsicon h1{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 45px;
+}
+
+
+.upper{
+    display: flex;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.lower{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.react-container, .python-container, .github-container,  .css-container, .html-container, .java-container, .c-container, .js-container, .git-container{
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    background-color:black;
+    border-radius: 50%;
+}
+
+.python-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    opacity:0;
+    background-color: rgba(0,0,0,0.5);
+    transition: 0.6s;
+}
+
+.python-content h1{
+    font-size:35px;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.python-content:hover{
+    cursor: pointer;
+    animation-play-state: paused;
+    opacity: 1;
+}
+
+.python-content > *{
+    transform: translateY(25px);
+    transition:transform 0.6s;
+}
+
+.python-content:hover > *{
+    transform: translateY(0px);
+    transition:transform 0.6s;
+}
+
+.react, .python, .html, .java, .js, .c, .css, .git, .github{
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    animation: anime 1s  infinite ease-in-out alternate;
+    animation-delay: .5s; 
+}
+
+.java{
+    height: 135px;
+    width:135px;
+    position: relative;
+    animation-delay: .6s;
+    animation: anime 2.5s  infinite ease-in-out alternate;
+}
+
+.git{
+    height: 130px;
+    width:130px;
+    animation: anime 2s  infinite ease-in-out alternate;
+    /* -webkit-animation: anime 1s infinite ease-in-out alternate; */
+    animation-delay: .3s; 
+    display: block;
+    position: relative;
+    animation: anime 1.75s  infinite ease-in-out alternate;
+}
+
+.html{
+    height: 115px;
+    width:115px;
+    position: relative;
+    animation: anime 2.75s  infinite ease-in-out alternate;
+    animation-delay: .4s;  
+  }
+
+
+  @keyframes anime {
+    100% {
+        transform:  translateY(30px) ;
+    }
+}
+ 
+.python, .git, .github{
+    animation: anime 2.225s  infinite ease-in-out alternate;
+}
+
+
+.js{
+    animation: anime 1.75s  infinite ease-in-out alternate;
+}
+
+.react:hover, .python:hover, .html:hover, .java:hover, .js:hover, .c:hover, .css:hover, .git:hover, .github:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    width: 120px;
+    height: 120px;
+} 
+
+@media only screen and (max-width: 1050px) and (min-width: 768px){
+    .mainskillsframe{
+        width: 100%;
+        height: 95vh;
+    }
+    .main-skillsicon{
+        top:40%;
+        width: 600px;
+        height: 920px;
+    }
+
+    .upper{
+        display: grid;
+        margin-bottom: 70px;
+        flex-direction: column;
+        margin-top: 40px;
+        column-gap: 80px;
+        row-gap: 30px;
+        grid-template-columns: auto auto ;
+        justify-content: space-evenly;
+    }
+    
+    .lower{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: auto   auto;
+        margin-bottom: 10px;
+        column-gap: 80px;
+        row-gap: 30px;
+        justify-content: space-evenly;
+    }
+    .react, .python, .html, .java, .js, .c, .css, .git, .github{
+        height: 90PX;
+        width: 90px;
+    }
+    .c-container{
+        left: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mainskillsframe{
+        width: 100%;
+        height: 115vh;
+    }
+    .main-skillsicon{
+        top:42%;
+        width: 250px;
+        height: 890px;
+    }
+
+    .upper{
+        display: grid;
+        margin-bottom: 70px;
+        flex-direction: column;
+        margin-top: 40px;
+        row-gap: 60px;
+        grid-template-columns: auto auto ;
+        justify-content: space-evenly;
+    }
+    
+    .lower{
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: auto   auto;
+        margin-bottom: 10px;
+        row-gap: 60px;
+        justify-content: space-evenly;
+    }
+    .react, .python, .html, .java, .js, .c, .css, .git, .github{
+        height: 70PX;
+        width: 70px;
+    }
+    .c-container{
+        left: 55%;
+    }
+    .main-skillsicon h1{
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 394px) and (min-width: 200px){
+    .mainskillsframe{
+        width: 100%;
+        height: 122vh;
+    }
+    .main-skillsicon{
+        top:40%;
+        width: 220px;
+        height: 890px;
+    }
+    .react, .python, .html, .java, .js, .c, .css, .git, .github{
+        height: 65PX;
+        width: 65px;
+    }
+    .main-skillsicon h1{
+        font-size: 33px;
+    }
+}
+
+
+

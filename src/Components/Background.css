@@ -1,0 +1,280 @@
+.mask {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.landingBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  opacity: 0.35;
+  filter: blur(0.2rem);
+}
+
+/* .mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.825;
+  filter: blur(3rem);
+} */
+
+.mainBg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.mainBg .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  top: 40%;
+  left: 25%;
+}
+
+.mainBg .content h1 {
+  font-size: 2.5rem;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgb(181, 226, 243);
+  animation: typing 3s steps(20) infinite,
+    cursor 0.4s step-end infinite alternate;
+  width: 22ch;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 100px;
+  }
+}
+
+.mainBg .content p {
+  font-size: 1.25rem;
+  padding: 1rem 1rem;
+  line-height: 2rem;
+}
+
+.content .myworks {
+  display: flex;
+  width: 50px;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: row;
+}
+
+.glitch {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  color: rgb(181, 226, 243);
+  letter-spacing: 3px;
+  white-space: nowrap;
+  border: 2px solid rgb(139, 202, 202);
+  padding: 10px 10px;
+  box-shadow: 5px 5px 10px #0ff;
+}
+
+.glitch:before,
+.glitch:after {
+  display: block;
+  content: attr(data-glitch);
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  padding: 8.5px 8.5px;
+}
+
+.glitch:after {
+  color: #f0f;
+  z-index: -2;
+}
+
+.glitch:before {
+  color: #0ff;
+  z-index: -1;
+}
+
+.glitch:hover:before {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
+}
+
+.glitch:hover:after {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 5;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+@media only screen and (max-width: 1370px) and (min-width: 1150px) {
+  .mainBg .content {
+    top: 53%;
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 768px) {
+  .mask {
+    height: 105vh;
+  }
+  .mainBg .content {
+    top: 50%;
+    left: 35%;
+  }
+
+  .landingBg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .mainBg .content p {
+    font-size: 1.2rem;
+  }
+  .mainBg .content h1 {
+    font-size: 2.22rem;
+  }
+  .glitch {
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(181, 226, 243);
+    letter-spacing: 2.8px;
+    white-space: nowrap;
+    border: 2px solid rgb(139, 202, 202);
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px #0ff;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 400px) {
+  .mask {
+    height: 125vh;
+  }
+  .mainBg .content {
+    top: 50%;
+    left: 35%;
+  }
+
+  .landingBg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .mainBg .content p {
+    font-size: 1.1rem;
+  }
+  .mainBg .content h1 {
+    font-size: 1.7rem;
+  }
+  .glitch {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(181, 226, 243);
+    letter-spacing: 2.8px;
+    white-space: nowrap;
+    left: 3%;
+    border: 2px solid rgb(139, 202, 202);
+    padding: 8px 8px;
+    box-shadow: 5px 5px 10px #0ff;
+  }
+  .mainBg .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+    width: 400px;
+    top: 40%;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 394px) and (min-width: 200px) {
+  .mask {
+    height: 125vh;
+  }
+
+  .landingBg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .mainBg .content p {
+    font-size: 1.05rem;
+  }
+  .mainBg .content h1 {
+    font-size: 1.4rem;
+  }
+  .glitch {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(181, 226, 243);
+    letter-spacing: 2.8px;
+    white-space: nowrap;
+    left: 3%;
+    border: 2px solid rgb(139, 202, 202);
+    padding: 8px 8px;
+    box-shadow: 5px 5px 10px #0ff;
+  }
+  .mainBg .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 365px;
+    top: 45%;
+    left: 50%;
+  }
+}

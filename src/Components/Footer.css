@@ -1,0 +1,145 @@
+.footerMain {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: rgb(6, 30, 66);
+}
+
+.footer {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  /* height: 100%; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.right {
+  /* height: 100%;*/
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.location,
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  width: 400px;
+  text-align: left;
+  /* padding-top: 20px; */
+}
+
+.social {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.tag p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  padding: 15px;
+  margin-top: 0.6rem;
+  color: white;
+}
+
+.insta:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.5s;
+  color: red;
+}
+
+.githubbF:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.location p,
+.phone p,
+.email p {
+  color: white;
+}
+
+/* @media screen and (max-width:992px) {
+    .footerMain{
+        width: 100%;
+    }
+    .footer::after{
+        width: 100%;
+        clear: both;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .right {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .location,
+  .phone,
+  .email {
+    padding: 1px 1px;
+  }
+  .tag p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width:490px) {
+    .tag p{
+        font-size: 25px;
+        width: 199px;
+    }
+    .location,
+.phone,
+.email{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 17.5px;
+  font-weight: bold;
+  padding-left: 20px;
+  width: 400px;
+  text-align: left;
+  margin-left: 20%;
+}
+}
