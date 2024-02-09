@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.bb39f378.css",
+    "main.js": "/my-portfolio/static/js/main.a832c1cd.js",
+    "static/media/Portfolio.png": "/my-portfolio/static/media/Portfolio.b6adcdf90d826547cba6.png",
+    "static/media/Diwali.jpg": "/my-portfolio/static/media/Diwali.6127e8b7229e5f499813.jpg",
+    "static/media/Website_bg.jpg": "/my-portfolio/static/media/Website_bg.28239ae9df7c85ac7f0b.jpg",
+    "static/media/skills3.png": "/my-portfolio/static/media/skills3.fafd70f9c87b6d53be68.png",
+    "static/media/flight.png": "/my-portfolio/static/media/flight.10f8968aedce22a92a96.png",
+    "static/media/image.png": "/my-portfolio/static/media/image.4a0e9d27a6061816ae88.png",
+    "static/media/Emotionimage.jpg": "/my-portfolio/static/media/Emotionimage.911f3c1e847d67f354f0.jpg",
+    "static/media/science.png": "/my-portfolio/static/media/science.3030d5b17e5e7dddce97.png",
+    "static/media/mysql.png": "/my-portfolio/static/media/mysql.497f0352daee384d84b7.png",
+    "static/media/audio.jpg": "/my-portfolio/static/media/audio.2cc5c351bfe7bdac4d1b.jpg",
+    "static/media/python.png": "/my-portfolio/static/media/python.d5a761922f495a2ec1d9.png",
+    "static/media/java.png": "/my-portfolio/static/media/java.d0478d165b57054d71de.png",
+    "static/media/c-.png": "/my-portfolio/static/media/c-.420e157c94c3f5b828ac.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.bb39f378.css.map": "/my-portfolio/static/css/main.bb39f378.css.map",
+    "main.a832c1cd.js.map": "/my-portfolio/static/js/main.a832c1cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb39f378.css",
+    "static/js/main.a832c1cd.js"
+  ]
+}
