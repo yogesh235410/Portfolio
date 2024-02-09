@@ -31,7 +31,7 @@ const NavBar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>{"<  PortFolio  />"}</h1>
+        <h1>{"  PortFolio  "}</h1>
       </Link>
       <div className="menu-toggle" onClick={handleMenuToggle}>
         <span></span>
