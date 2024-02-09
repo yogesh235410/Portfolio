@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./AboutMain.css";
-import aboutbg from "../Assets/AboutBg.jpg";
 import myphoto from "../Assets/Diwali.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt, faNewspaper } from "@fortawesome/free-solid-svg-icons";
