@@ -5,6 +5,7 @@ This is a React.js portfolio app that showcases my skills, projects, and experie
 Installation
 To run this app locally, follow these steps:
 
+
 Clone this repository to your local machine.
 Navigate to the project directory in your terminal.
 Run npm install to install the dependencies.
